@@ -1,0 +1,11 @@
+[
+	{
+		"name": "fuzzOutput",
+		"type": "grammarFuzz",
+		"config": {
+			"grammarFile": "POSTFIX_CALC.g4",
+			"entryRule": "expr",
+			"executeFile": "postfix_calculator.py"
+		}
+	}
+]
