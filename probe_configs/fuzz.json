@@ -13,6 +13,13 @@
 		"config": {
 			"channel": "monitoring-slack-test-public",
 			"message": "{fuzzOutput}"
+		}
+	},
+	{
+		"type": "slackBotSimple",
+		"config": {
+			"channel": "monitoring-slack-test-public",
+			"message": "Sending a message."
+		}
 	}
-  }
 ]
