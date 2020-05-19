@@ -4,8 +4,8 @@ expr
    : NUMBER
    | expr ' ' expr ' ' OPERATOR;
 
-// OPERATOR : '+' | '-' | '*';
-OPERATOR : '+' | '-' | '*' | '/'; // This allows division by zero!
+OPERATOR : '+' | '-' | '*';
+// OPERATOR : '+' | '-' | '*' | '/'; // This allows division by zero!
 
 
 // Borrowed from JSON.g4 from antlr4-grammars/
