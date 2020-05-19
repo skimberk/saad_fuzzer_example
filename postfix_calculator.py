@@ -7,6 +7,8 @@ def eval_postfix(tokens):
 	stack = deque()
 
 	for token in tokens:
+		assert len(stack) < 50, 'Stack too big!'
+
 		if token in ('+', '-', '*', '/'):
 			arg_two = stack.pop()
 			arg_one = stack.pop()
