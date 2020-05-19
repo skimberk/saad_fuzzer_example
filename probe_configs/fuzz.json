@@ -3,7 +3,7 @@
 		"type": "slackBotSimple",
 		"config": {
 			"channel": "monitoring-slack-test-public",
-			"message": "Message version 2"
+			"message": "Message version 3"
 		}
 	}
 ]
